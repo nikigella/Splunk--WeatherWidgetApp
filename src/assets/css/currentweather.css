@@ -1,0 +1,28 @@
+.city {
+    font-size: 35px;
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.daytime {
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weathericon {
+    margin-bottom: 20px;
+}
+
+.tempExt {
+    position: relative;
+    font-size: 100%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -1.2em;
+}
