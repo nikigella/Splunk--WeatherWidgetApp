@@ -1,8 +1,8 @@
 {
-  "name": "weatherwidgetapp",
+  "name": "weatherapp",
   "version": "1.0.0",
   "description": "",
-  "main": "FrontEndAssessment.js",
+  "main": "WeatherApp.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

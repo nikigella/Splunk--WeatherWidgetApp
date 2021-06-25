@@ -4,7 +4,7 @@ import HourlyForecastWeatherComponent from './HourlyForecastWeatherComponent'
 import DailyForecastWeatherComponent from './DailyForecastWeatherComponent'
 import {Container} from 'react-bootstrap'
 
-class FrontEndAssessment extends Component {
+class WeatherApp extends Component {
     render() {
         return (
             <Container>
@@ -20,4 +20,4 @@ class FrontEndAssessment extends Component {
 
  }
 
-export default FrontEndAssessment
+export default WeatherApp

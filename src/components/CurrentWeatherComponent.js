@@ -11,9 +11,9 @@ class CurrentWeatherComponent extends Component {
             items: [],                  // Stores the response from api call
             currentWeatherData: []      // Holds the current weather data information
         };
-        this.prepareCurrentWeatherData = this.prepareCurrentWeatherData.bind(this)
-        this.convertTimeStamp = this.convertTimeStamp.bind(this)
-        this.convertWeatherDescription = this.convertWeatherDescription.bind(this)
+        // this.prepareCurrentWeatherData = this.prepareCurrentWeatherData.bind(this)
+        // this.convertTimeStamp = this.convertTimeStamp.bind(this)
+        // this.convertWeatherDescription = this.convertWeatherDescription.bind(this)
     }
 
     componentDidMount() {
@@ -39,7 +39,8 @@ class CurrentWeatherComponent extends Component {
         This function populates the current weather data array 
         using the response from the api call
     */
-    prepareCurrentWeatherData() {
+   
+    prepareCurrentWeatherData = () => {
         let data = {}               // Object to hold display data
         let city = this.state.items.name
         // Convert unix timestamp to datetime stamp

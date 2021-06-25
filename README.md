@@ -1,10 +1,10 @@
 ## Project Name and Description
-WeatherWidget
+WeatherApp
 An application used to display current weather, three hour interval weather, and daily forecast weather information,
 and it's built with React, JavaScript, and CSS
 
 ## Github Link
-https://github.com/nikigella/Splunk--WeatherWidgetApp
+https://github.com/nikigella/WeatherApp
 
 ## Installation and Setup Instructions
 Here's how to run my application:
@@ -32,7 +32,4 @@ Installation:
  Visit the App:
  Url: http://localhost:3000/
 
-
-
-
-# Splunk--WeatherWidgetApp
+# WeatherApp

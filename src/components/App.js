@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import FrontEndAssessment from './FrontEndAssessment'
+import WeatherApp from './WeatherApp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
     render() {
         return (
             <div className="container">
-                <FrontEndAssessment />
+                <WeatherApp />
             </div>
         );
     }
