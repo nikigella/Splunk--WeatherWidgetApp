@@ -11,8 +11,8 @@ class HourlyForecastWeatherComponent extends Component {
             list: [],           // To hold the response from api call
             hourTempData: []    // Holds the three hour interval temperature data
         };
-        this.prepareThreeHourIntervalData = this.prepareThreeHourIntervalData.bind(this)
-        this.convertFullTime = this.convertFullTime.bind(this)
+        // this.prepareThreeHourIntervalData = this.prepareThreeHourIntervalData.bind(this)
+        // this.convertFullTime = this.convertFullTime.bind(this)
     }
 
     componentDidMount() {
@@ -38,7 +38,7 @@ class HourlyForecastWeatherComponent extends Component {
         This function populates the three hour interval weather 
         data array using the response from the api call
     */
-    prepareThreeHourIntervalData() {
+    prepareThreeHourIntervalData = () => {
         let hourTemp = {}
         // Time from the api response
         var fullTime;

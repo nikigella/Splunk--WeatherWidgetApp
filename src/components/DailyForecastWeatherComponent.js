@@ -13,7 +13,7 @@ class DailyForecastWeatherComponent extends Component {
             daily: [],              // To hold the response from api call
             dailyForecastData: []   // To hold the forecast weather data from api response
         };
-        this.prepareDailyForecastData = this.prepareDailyForecastData.bind(this)
+        // this.prepareDailyForecastData = this.prepareDailyForecastData.bind(this)
     }
 
     componentDidMount() {
@@ -39,7 +39,7 @@ class DailyForecastWeatherComponent extends Component {
         This function populates the forecast weather 
         data array using the response from the api call
     */
-    prepareDailyForecastData() {
+    prepareDailyForecastData = () => {
         let data = {}       // Object to hold display data
         var day;
         var date;
